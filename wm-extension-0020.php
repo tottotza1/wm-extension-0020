@@ -1,11 +1,11 @@
 <?php
 /*
  * Plugin Name: Woomelly Extension 020 Add ons 
- * Version: 1.1
- * Plugin URI: https://woomelly.com
+ * Version: 1.1.1
+ * Plugin URI: https://github.com/woomelly/wm-extension-0020/
  * Description: Woomelly extensión que permite replicar precio base y precio descuento de Mercado Libre a WooCommerce
- * Author: Team MakePlugins
- * Author URI: https://woomelly.com
+ * Author: Team Woomelly
+ * Author URI: https://woomelly.com/
  * Requires at least: 4.0
  *
  */
@@ -30,7 +30,7 @@ if ( ! function_exists( 'wm_filter_sales_price_ext_020' ) ) {
         if ( $data_item->original_price != null && intval($data_item->original_price) > 1 ) {
             $pprice = wc_format_decimal( $data_item->price, wc_get_price_decimals() );
         } else {
-            $pprice = "";
+            $pprice = 0;
         }
         return $pprice;
     }
