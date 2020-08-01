@@ -3,7 +3,7 @@
  * Plugin Name: Woomelly Extension 020 Add ons 
  * Version: 1.1.1
  * Plugin URI: https://github.com/woomelly/wm-extension-0020/
- * Description: Woomelly extensión que permite replicar precio base y precio descuento de Mercado Libre a WooCommerce
+ * Description: Woomelly extension that allows replicating base price and discount price from Mercado Libre to WooCommerce
  * Author: Team Woomelly
  * Author URI: https://woomelly.com/
  * Requires at least: 4.0
